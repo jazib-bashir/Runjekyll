@@ -10,7 +10,7 @@ date: 2015-03-30 2:03:27
 Please note: Using Jekyll on Windows is not officially supported by the Jekyll team. And while this guide is featured on <a href="http://jekyllrb.com/docs/windows/">the Jekyll website</a>, it remains unofficial.
 
 Click the button below to get started and go through the installation process step by step or select a specific step from the sidebar on the left.<br><br>
-<a class=" col-md-6 col-md-offset-3 btn btn-default" href="/ruby">Get Started>></a><br><br>
+<a class=" col-md-6 col-md-offset-3 btn btn-default" href="/Runjekyll/ruby">Get Started>></a><br><br>
 <h2>Versions</h2>
 If you follow this guide step by step, you'll end up with the following software versions. These have been tested and work with Jekyll on Windows.
 
