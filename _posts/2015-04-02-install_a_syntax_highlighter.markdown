@@ -37,9 +37,11 @@ Click the button below and download the v2.7 installer that matches your system�
 Execute the downloaded file and go through the steps of the installation.
 
 When you get to the screen below, make sure to click on the box next to Add python.exe to Path and select “Entire feature will be installed on local hard drive.”
+
 <div class="text-center">
 	<img src="{{ site.baseurl }}/images/python-path.png">
 </div>
+
 <h3>Install pip</h3>
 Pip is a tool for installing and managing Python packages, similar to Ruby Gems. You’ll need it to install Pygments, the Python package that pygments.rb uses to highlight your code.
 
