@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Introduction to Jekyll
-date: 2015-03-30 2:03:27
+date: 2015-03-29 2:03:27
+permalink: /intro
+state: intro 
 ---
 <h1>Introduction</h1>
 

@@ -4,12 +4,29 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    
+  <div class="bg-img" id="bg-image">
+  	{% include header.html%}
+  	<div class="intro-text">
+  	{% if page.state == "intro" %}
+			<h1>Introduction to Jekyll</h1>
+		{% elsif page.state == "ruby" %}
+			<h1>Install Ruby and the Ruby DevKit</h1>
+		{% elsif page.state == "jekyll" %}
+			<h1>Install the Jekyll Gem</h1>
+		{% elsif page.state == "syntax" %}
+			<h1>Install a Syntax Highlighter</h1>
+		{% else %}
+			<h1>Run Jekyll</h1>
+			<p>A step-by-step guide to setting up Jekyll on Windows</p>
+		{% endif %}
+			<div class="page-scroll">
+				<a href="#content" class="btn btn-success get-text">Get Started</a>
+			</div>
+    </div>
+	</div>
+	<section id="content">
         {{ content }}
-        
+        </section>
 
     {% include footer.html %}
 
